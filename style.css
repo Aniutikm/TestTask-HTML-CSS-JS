@@ -1,0 +1,99 @@
+/*
+FLEXBOX
+
+body {
+    margin: 10% auto;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+    height: 70%;
+    row-gap: 5px;
+}
+
+header {
+    height: 20%;
+}
+
+nav {
+    height: 12%;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+    text-align: center;
+    border: 3px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    display: flex;
+    column-gap: 3%;
+    width: 101%;
+    height: 70%;
+    margin: 3px auto;
+
+}
+
+section {
+    width: 67%;
+}
+
+aside {
+    width: 33%;
+    margin-right: 0%;
+}
+
+footer {
+    height: 15%;
+}*/
+
+/*
+GRID
+*/
+
+body {
+    margin: 10% auto;
+}
+
+.wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-rows: 2fr 1fr 7fr 1.5fr;
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+    row-gap: 5px;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+    text-align: center;
+    border: 3px solid black;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    margin: 3px auto;
+    display: grid;
+    grid-template-columns: 68% 28%;
+    width: 100%;
+    column-gap: 4%;
+}
